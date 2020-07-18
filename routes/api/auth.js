@@ -23,7 +23,7 @@ router.get('/',auth, async (req,res)=>{
 
 
 //@router   api/users
-//@desc     Register a user
+//@desc     login a user
 //@access   public
 router.post('/login', loginUserErrorHandler, async (req,res)=>{
     try {

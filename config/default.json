@@ -1,4 +1,7 @@
 {
     "mongoURI":"mongodb+srv://devConnect:devConnect@devconnect.06i5e.mongodb.net/devConnect?retryWrites=true&w=majority",
-    "jwtSecretKey":"devConnect"
+    "jwtSecretKey":"devConnect",
+    "githubClientId":"c82c176e09ae7d24f72e",
+    "githubSecretKey":"fdfabac675829f06ba93789528de8f033f210a16"
+
 }
