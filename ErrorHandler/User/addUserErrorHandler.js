@@ -1,4 +1,4 @@
-const { check }  = require('./node_modules/express-validator')
+const { check }  = require('express-validator')
 
 const addUserErrorHandler = [
     check('name', 'Name is required')
