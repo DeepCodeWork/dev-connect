@@ -1,0 +1,19 @@
+.home{
+    height: 100vh;
+    margin-top: 65px;
+}
+
+.image{
+    background: url("../../assets/img/homePage.jpg");
+    height: auto;
+    min-height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    background-color: black;
+    opacity: 0.5;
+    min-height: 700px;
+    position: relative;
+}

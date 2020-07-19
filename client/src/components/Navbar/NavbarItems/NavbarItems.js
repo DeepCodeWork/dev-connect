@@ -1,0 +1,23 @@
+import React from 'react';
+import NavbarItem from './NavbarItem/NavbarItem';
+
+const NavbarItems = (props) => {
+
+    let links = props.links.map((item, index)=>{
+        return <NavbarItem link={item} key={index}/>
+    })
+    return(
+        <div>   
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav mr-auto">
+                {links}
+            </ul>
+            </div>
+        </div>
+    );
+}
+
+export default NavbarItems;
